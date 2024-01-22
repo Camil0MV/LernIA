@@ -1,0 +1,252 @@
+body {
+  background-color: #ffffff;
+  font-family: nunito;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+ 
+header .search-box {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #62013C;
+  margin-left: 100px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+header .search-box::placeholder {
+  color: #62013C;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+  
+nav button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 5px;
+  font-weight: bolder;
+  border-radius: 5px
+}
+
+
+header .button-login {
+  color: #62013C;
+  background-color: #ffffff;
+  border: #62013C 1px solid;
+}
+
+header .button-login:hover {
+  color: #ffffff;
+  background-color: #62013C;
+  border: #62013C 1px solid;
+}
+
+header .button-signup {
+  color: #ffffff;
+  background-color: #62013C;
+  border: #62013C 1px solid;
+}
+
+header .button-signup:hover {
+  color: #62013C;
+  background-color: #ffffff;
+  border: #62013C 1px solid;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #272728;
+  margin: 0.5px 0;
+}
+
+main article p {
+  font-family: nunito;
+}
+
+main #description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main #description img {
+  width: 400px;
+  height: auto;
+  margin-right: 100px;
+}
+
+main #description .heading {
+  font-size: 40px;
+}
+
+main #function {
+  background-color: #f8e6a680;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main #function img {
+  width: 200px;
+  height: auto;
+  margin-left: 100px;
+}
+
+main #function .how {
+  font-size: 40px;
+}
+
+main #data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main #data img {
+  width: 250px;
+  height: auto;
+  margin-right: 100px;
+}
+
+main #data .why {
+  font-size: 40px;
+}
+
+footer {
+  background-color: #3e0226;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer article {
+  flex: 1;
+}
+
+footer .mission {
+  padding: 20px 130px;
+  flex-basis: 50%;
+}
+
+
+footer .mission p {
+  color: #ca067c;
+  font-size: 20px;
+  padding-left: 12px;
+  margin-top: 10px;
+}
+
+footer .about {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+footer .course {
+  padding-top: 30px;
+  margin-right: 30px;
+}
+
+footer .contact {
+  padding-top: 30px;
+  margin-right: 30px;
+}
+
+footer .apps {
+  padding-top: 30px;
+  margin-right: 165px;
+}
+
+footer .about p, footer .apps p {
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer h3 {
+  color: #ca067c;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline white;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+footer .apps img {
+  width: 100px;
+  height: auto;
+  padding-top: 6px;
+}
+
+footer .more {
+  font-size: 12px;
+  padding-top: 90px;
+  padding-left: 130px;
+  flex-basis: 50%;
+}
+
+footer .more p, footer .more a {
+  display: inline-block;
+  margin: 0 10px; 
+}
+
+footer .more p {
+  color: #e4088c;
+  margin-bottom: 5px;
+}
+
+footer .more a {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+footer .socials {
+  padding-top: 70px;
+  padding-left: 120px;
+}
+
+footer .socials img {
+  width: 15%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+}
